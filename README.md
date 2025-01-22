@@ -1,64 +1,108 @@
-# Text-to-Voice-Generator
-A web application that converts text to speech with an interactive audio visualization overlay. Users can customize their experience by uploading background images and watching real-time audio waveforms animate over them.
+# 🎙️ Text-to-Voice Generator
 
-# FEATURES
-## Text-to-Speech Functionality
 
-Convert any text input to natural-sounding speech
-Multiple voice options to choose from
-Adjustable speech speed (0.75x to 1.5x)
-Play and stop controls for audio playback
+> Transform text into natural speech with stunning real-time audio visualizations! 🎵
 
-## Audio Visualization
+![image](https://github.com/user-attachments/assets/6900c93f-fb3f-4588-9fa8-3d39d14407be)
 
-Dynamic waveform visualization that responds to speech audio
-Full-width visualization bars that overlay any background image
-Smooth animations and transitions
-Clean, minimalist white bars design
 
-## Image Integration
+## ✨ Features
 
-Upload custom background images
-Drag and drop image upload support
-Image preview functionality
-Automatic image scaling and positioning
+### 🗣️ Advanced Text-to-Speech
 
-## User Interface
+- **Natural Voice Synthesis**: Convert text to lifelike speech
+- **Voice Customization**: Choose from multiple voice profiles
+- **Speed Control**: Adjust playback speed (0.75x to 1.5x)
+- **Playback Controls**: Intuitive play/pause/stop functionality
 
-Clean and modern dark theme design
-Intuitive controls layout
-Responsive design that works on all screen sizes
-Easy-to-use text input area
+### 📊 Dynamic Audio Visualization
 
-## Technical Details
-## Built With
+- **Real-time Waveforms**: See your audio come to life
+- **Responsive Design**: Full-width visualization bars
+- **Smooth Animation**: Fluid transitions and effects
+- **Minimalist Style**: Clean white bars on any background
 
-HTML5 for structure
-CSS3 for styling and animations
-JavaScript for functionality
-Web Speech API for text-to-speech conversion
-Canvas API for audio visualization
+### 🖼️ Background Customization
 
-## Key Components
+- **Custom Uploads**: Personalize with your own images
+- **Drag & Drop**: Easy image uploading
+- **Preview Mode**: See changes before applying
+- **Smart Scaling**: Automatic image optimization
 
-Speech Synthesis for voice generation
-Web Audio API for audio analysis
-Canvas-based visualization
-File upload handling
-Real-time audio processing
+### 💫 Modern User Interface
 
-# Getting Started
+- **Dark Theme**: Easy on the eyes
+- **Responsive Layout**: Works on all devices
+- **Intuitive Design**: User-friendly controls
+- **Seamless Experience**: Clean and modern aesthetics
 
-Enter your desired text in the textarea
-(Optional) Upload a background image
-Select your preferred voice and speed
-Click "Generate" to hear the text and see the visualization
+## 🛠️ Built With
 
-# Future Enhancements
+- **HTML5** - Structure and semantics
+- **CSS3** - Styling and animations
+- **JavaScript** - Core functionality
+- **Web Speech API** - Text-to-speech conversion
+- **Canvas API** - Audio visualization
 
-Additional visualization styles
-More voice options
-Audio recording capabilities
-Save and share functionality
-Custom color themes
-Background music integration
+## 🚀 Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/text-to-voice-generator.git
+   ```
+
+2. **Navigate to project directory**
+   ```bash
+   cd text-to-voice-generator
+   ```
+
+3. **Visit `http://localhost:8000` in your browser**
+
+## 💡 Usage
+
+1. 📝 Enter your text in the input area
+2. 🖼️ (Optional) Upload a background image
+3. 🎤 Select voice and speed preferences
+4. ▶️ Click "Generate" to start
+5. 🎵 Watch and listen as your text comes alive!
+
+## 🔧 Technical Architecture
+
+```mermaid
+graph TD
+    A[Text Input] --> B[Speech Synthesis]
+    B --> C[Audio Processing]
+    C --> D[Web Audio API]
+    D --> E[Canvas Visualization]
+    F[Image Upload] --> G[Background Processing]
+    G --> E
+```
+
+## 🎯 Upcoming Features
+
+- [ ] Additional visualization patterns
+- [ ] Extended voice library
+- [ ] Audio recording & export
+- [ ] Social sharing capabilities
+- [ ] Custom theme builder
+- [ ] Background music mixer
+
+## 🤝 Contributing
+
+Contributions are always welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for ways to get started.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## 📬 Contact
+
+Dimas Nurzaky -  dndimas77@gmailcom
+
+
+---
+
+⭐️ If you like this project, give it a star!
