@@ -48,15 +48,15 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/text-to-voice-generator.git
+   git clone https://github.com/Zakvs/Text-to-Voice-Generator.git
    ```
 
 2. **Navigate to project directory**
    ```bash
-   cd text-to-voice-generator
+   cd Text-to-Voice-Generator
    ```
 
-3. **Visit `http://localhost:8000` in your browser**
+3. **Visit `http://localhost:8000` in your browser or open file `index.html` with live server**
 
 ## 💡 Usage
 
