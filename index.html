@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech in JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" type="module"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <h2>Text-to-Speech</h2>
+        <textarea id="text" placeholder="Enter text here..."></textarea>
+
+        <label>Voice:</label>
+        <select id="voice-select"></select>
+
+        <label>Speed:</label>
+        <select id="speed-select">
+          <option value="0.75">0.75x</option>
+          <option value="1" selected>1x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5">1.5x</option>
+        </select>
+
+        <label class="file-label">
+          Upload Image
+          <input
+            type="file"
+            id="imageInput"
+            class="file-input"
+            accept="image/*"
+          />
+        </label>
+
+        <button id="speak">Generate</button>
+      </div>
+
+      <div class="visualizer-container">
+        <img id="imagePreview" src="placeholder-image.jpg" alt="Preview" />
+        <canvas id="visualizer"></canvas>
+      </div>
+    </div>
+  </body>
+</html>

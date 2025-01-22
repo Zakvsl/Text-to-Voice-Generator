@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.controls {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.visualizer-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#visualizer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#imagePreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4666ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3651cc;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+select {
+  background-color: #333;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.preview-container {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  min-height: 400px;
+}
+.visualizer-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: transparent;
+}
+#visualizer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+#imagePreview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.controls {
+  background-color: rgba(42, 42, 42, 0.8);
+  backdrop-filter: blur(10px);
+}
