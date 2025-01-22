@@ -102,7 +102,6 @@ Contributions are always welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for way
 
 Dimas Nurzaky -  dndimas77@gmailcom
 
-Project Link: [https://github.com/yourusername/text-to-voice-generator](https://github.com/yourusername/text-to-voice-generator)
 
 ---
 
