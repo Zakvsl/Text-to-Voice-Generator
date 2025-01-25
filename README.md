@@ -98,10 +98,6 @@ Contributions are always welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for way
 5. Open a Pull Request
 
 
-## 📬 Contact
-
-Dimas Nurzaky -  dndimas77@gmailcom
-
 
 ---
 
